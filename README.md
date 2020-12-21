@@ -19,6 +19,7 @@ Création du projet springboot sur inteliJ avec les dépendances h2, jpa, et spr
 ### mise en place de la base de donnée
 
 création des fichiers pour la base de donnée 
+Les tests avec la console h2 fonctionne !
 
 ### Création du CRUD
 

@@ -223,3 +223,4 @@ CREATE SCHEMA breizhvideo AUTHORIZATION SA [90032-200]
 2020-12-21 11:05:30.202  INFO 3318 --- [main] c.t.breizhvideo.BreizhvideoApplication   : Started BreizhvideoApplication in 1.958 seconds (JVM running for 2.692)
 2020-12-21 11:05:39.264  INFO 3318 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [:machin; io=Pmc_oqPQGzSBtekLAAAJ] that contained an invalid cookie. That cookie will be ignored.
  Note: further occurrences of this error will be logged at DEBUG level.
+2020-12-21 12:38:52.471  WARN 3318 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m22s343ms).

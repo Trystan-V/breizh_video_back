@@ -26,3 +26,4 @@ mise en place des packages controller, service, modele et repository
 
 #### Le village
 
+Création du modele avec id, name et postCode. création des getter setter

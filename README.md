@@ -7,6 +7,7 @@
     * mise en place de la base de donnée
     * création du CRUD
         * Le village
+        * Le show
 
 
 -----------------------------
@@ -32,3 +33,7 @@ test de verification requete simple : ça marche !
 
 le village a son modele, son repository, et son service ( et service implement).
 Les test sur postman ne marche pas malheureusement 
+
+#### le Show 
+
+Création de Show avec la relation (la ca se complique)

@@ -1,9 +1,9 @@
 2020-12-21 11:03:19.792  INFO 3282 --- [main] c.t.breizhvideo.BreizhvideoApplication   : Starting BreizhvideoApplication using Java 11.0.8 on MacBook-Pro-de-Trystan-2.local with PID 3282 (/Users/trystansimplon/Documents/projets/breizh_video_back/target/classes started by trystansimplon in /Users/trystansimplon/Documents/projets/breizh_video_back)
 2020-12-21 11:03:19.794  INFO 3282 --- [main] c.t.breizhvideo.BreizhvideoApplication   : No active profile set, falling back to default profiles: default
 2020-12-21 11:03:20.275  INFO 3282 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-12-21 11:03:20.284  INFO 3282 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2020-12-21 11:03:20.284  INFO 3282 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data co.trystan.breizhvideo.repository scanning in 3 ms. Found 0 JPA co.trystan.breizhvideo.repository interfaces.
 2020-12-21 11:03:20.642  INFO 3282 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-12-21 11:03:20.650  INFO 3282 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-21 11:03:20.650  INFO 3282 --- [main] o.apache.catalina.core.StandardService   : Starting co.trystan.breizhvideo.service [Tomcat]
 2020-12-21 11:03:20.650  INFO 3282 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
 2020-12-21 11:03:20.708  INFO 3282 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
 2020-12-21 11:03:20.708  INFO 3282 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 873 ms
@@ -32,9 +32,9 @@
 2020-12-21 11:05:09.151  INFO 3311 --- [main] c.t.breizhvideo.BreizhvideoApplication   : Starting BreizhvideoApplication using Java 11.0.8 on MacBook-Pro-de-Trystan-2.local with PID 3311 (/Users/trystansimplon/Documents/projets/breizh_video_back/target/classes started by trystansimplon in /Users/trystansimplon/Documents/projets/breizh_video_back)
 2020-12-21 11:05:09.153  INFO 3311 --- [main] c.t.breizhvideo.BreizhvideoApplication   : No active profile set, falling back to default profiles: default
 2020-12-21 11:05:09.580  INFO 3311 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-12-21 11:05:09.588  INFO 3311 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2020-12-21 11:05:09.588  INFO 3311 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data co.trystan.breizhvideo.repository scanning in 3 ms. Found 0 JPA co.trystan.breizhvideo.repository interfaces.
 2020-12-21 11:05:09.889  INFO 3311 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-12-21 11:05:09.897  INFO 3311 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-21 11:05:09.897  INFO 3311 --- [main] o.apache.catalina.core.StandardService   : Starting co.trystan.breizhvideo.service [Tomcat]
 2020-12-21 11:05:09.897  INFO 3311 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
 2020-12-21 11:05:09.952  INFO 3311 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
 2020-12-21 11:05:09.952  INFO 3311 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 762 ms
@@ -43,7 +43,7 @@
 2020-12-21 11:05:10.087 ERROR 3311 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'h2Console' defined in class path resource [org/springframework/boot/autoconfigure/h2/H2ConsoleAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.servlet.ServletRegistrationBean]: Factory method 'h2Console' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of URL [file:/Users/trystansimplon/Documents/projets/breizh_video_back/target/classes/schema.sql]: CREATE SCHEMA breizhvideo AUTHORIZATION SA; nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Utilisateur "SA" non trouvé
 User "SA" not found; SQL statement:
 CREATE SCHEMA breizhvideo AUTHORIZATION SA [90032-200]
-2020-12-21 11:05:10.101  INFO 3311 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-12-21 11:05:10.101  INFO 3311 --- [main] o.apache.catalina.core.StandardService   : Stopping co.trystan.breizhvideo.service [Tomcat]
 2020-12-21 11:05:10.103  WARN 3311 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  java.base@11.0.8/jdk.internal.misc.Unsafe.park(Native Method)
  java.base@11.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
@@ -202,9 +202,9 @@ CREATE SCHEMA breizhvideo AUTHORIZATION SA [90032-200]
 2020-12-21 11:05:28.503  INFO 3318 --- [main] c.t.breizhvideo.BreizhvideoApplication   : Starting BreizhvideoApplication using Java 11.0.8 on MacBook-Pro-de-Trystan-2.local with PID 3318 (/Users/trystansimplon/Documents/projets/breizh_video_back/target/classes started by trystansimplon in /Users/trystansimplon/Documents/projets/breizh_video_back)
 2020-12-21 11:05:28.505  INFO 3318 --- [main] c.t.breizhvideo.BreizhvideoApplication   : No active profile set, falling back to default profiles: default
 2020-12-21 11:05:28.922  INFO 3318 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-12-21 11:05:28.931  INFO 3318 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2020-12-21 11:05:28.931  INFO 3318 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data co.trystan.breizhvideo.repository scanning in 3 ms. Found 0 JPA co.trystan.breizhvideo.repository interfaces.
 2020-12-21 11:05:29.229  INFO 3318 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-12-21 11:05:29.235  INFO 3318 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-21 11:05:29.235  INFO 3318 --- [main] o.apache.catalina.core.StandardService   : Starting co.trystan.breizhvideo.service [Tomcat]
 2020-12-21 11:05:29.235  INFO 3318 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
 2020-12-21 11:05:29.286  INFO 3318 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
 2020-12-21 11:05:29.286  INFO 3318 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 743 ms
@@ -224,3 +224,10 @@ CREATE SCHEMA breizhvideo AUTHORIZATION SA [90032-200]
 2020-12-21 11:05:39.264  INFO 3318 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [:machin; io=Pmc_oqPQGzSBtekLAAAJ] that contained an invalid cookie. That cookie will be ignored.
  Note: further occurrences of this error will be logged at DEBUG level.
 2020-12-21 12:38:52.471  WARN 3318 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m22s343ms).
+2020-12-21 13:03:29.221  INFO 3318 --- [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-21 13:03:29.222  INFO 3318 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-21 13:03:29.223  INFO 3318 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-12-21 13:06:21.863  INFO 3318 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-21 13:06:21.864  INFO 3318 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-21 13:06:21.866  INFO 3318 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-21 13:06:21.868  INFO 3318 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

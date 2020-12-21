@@ -1,4 +1,4 @@
-package modele;
+package co.trystan.breizhvideo;
 
 
 import javax.persistence.Entity;

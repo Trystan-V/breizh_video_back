@@ -1,4 +1,5 @@
-package repository;
+package co.trystan.breizhvideo;
 
 public class VillageRepository {
+
 }

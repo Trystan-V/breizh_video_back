@@ -22,8 +22,8 @@ création des fichiers pour la base de donnée
 
 ### Création du CRUD
 
-mise en place des packages controller, service, modele et repository
+mise en place des packages co.trystan.breizhvideo.controller, co.trystan.breizhvideo.service, co.trystan.breizhvideo.modele et co.trystan.breizhvideo.repository
 
 #### Le village
 
-Création du modele avec id, name et postCode. création des getter setter
+Création du co.trystan.breizhvideo.modele avec id, name et postCode. création des getter setter

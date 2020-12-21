@@ -27,4 +27,7 @@ mise en place des packages co.trystan.breizhvideo.controller, co.trystan.breizhv
 #### Le village
 
 Création du co.trystan.breizhvideo.modele avec id, name et postCode. création des getter setter
-test de verification requete simple : ça marche ! 
+test de verification requete simple : ça marche !
+
+le village a son modele, son repository, et son service ( et service implement).
+Les test sur postman ne marche pas malheureusement 

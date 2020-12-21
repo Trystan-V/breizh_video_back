@@ -1,6 +1,6 @@
 # breizhvideo back
 
-## voici le back le l'appli breizhvideo
+## voici le back de l'appli breizhvideo
 
 * Création du projet avec springboot
     * intit springboot
@@ -8,6 +8,7 @@
     * création du CRUD
         * Le village
         * Le show
+        * les autres
 
 
 -----------------------------
@@ -36,4 +37,10 @@ Les test sur postman ne marche pas malheureusement
 
 #### le Show 
 
-Création de Show avec la relation (la ca se complique)
+Création de l'entity Show avec la relation (la ca se complique)
+
+#### Les autres
+
+Création des autres entity
+
+---------------

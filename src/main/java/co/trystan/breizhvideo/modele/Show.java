@@ -12,9 +12,7 @@ public class Show {
 
     private Date date;
 
-    @ManyToOne @JoinColumn(name = "village_id")
-    private Village village;
-
+    
     public long getId() {
         return id;
     }

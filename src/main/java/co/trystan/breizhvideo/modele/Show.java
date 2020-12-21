@@ -12,7 +12,7 @@ public class Show {
 
     private Date date;
 
-    
+
     public long getId() {
         return id;
     }

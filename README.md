@@ -25,11 +25,11 @@ Les tests avec la console h2 fonctionne !
 
 ### Création du CRUD
 
-mise en place des packages co.trystan.breizhvideo.controller, co.trystan.breizhvideo.service, co.trystan.breizhvideo.modele et co.trystan.breizhvideo.repository
+mise en place des packages ccontroller, service, modele etrepository
 
 #### Le village
 
-Création du co.trystan.breizhvideo.modele avec id, name et postCode. création des getter setter
+Création du modele avec id, name et postCode. création des getter setter
 test de verification requete simple : ça marche !
 
 le village a son modele, son repository, et son service ( et service implement).
@@ -41,6 +41,7 @@ Création de l'entity Show avec la relation (la ca se complique)
 
 #### Les autres
 
-Création des autres entity
+Création des autres entity avec leurs relations
+
 
 ---------------

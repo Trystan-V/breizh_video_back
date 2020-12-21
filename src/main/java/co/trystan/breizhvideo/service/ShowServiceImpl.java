@@ -15,5 +15,28 @@ public class ShowServiceImpl implements ShowService {
     private VillageRepository repository;
 
 
-    
+    @Override
+    public Optional<Show> findById(Long id) {
+        return Optional.empty();
+    }
+
+    @Override
+    public List<Show> findAll(String search) {
+        return null;
+    }
+
+    @Override
+    public Show insert(Show show) {
+        return null;
+    }
+
+    @Override
+    public Show update(Long id, Show show) {
+        return null;
+    }
+
+    @Override
+    public void delete(Long id) {
+
+    }
 }

@@ -1,4 +1,4 @@
-package co.trystan.breizhvideo;
+package co.trystan.breizhvideo.modele;
 
 
 import javax.persistence.Entity;
@@ -40,5 +40,4 @@ public class Village {
     public void setPostCode(String postCode) {
         this.postCode = postCode;
     }
-
 }

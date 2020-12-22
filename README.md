@@ -25,15 +25,16 @@ Les tests avec la console h2 fonctionne !
 
 ### Création du CRUD
 
-mise en place des packages ccontroller, service, modele etrepository
+mise en place des packages ccontroller, service, modele et repository. 
 
 #### Le village
 
+J'ai choisi de me concentrer sur le Village pour commencer.
 Création du modele avec id, name et postCode. création des getter setter
 test de verification requete simple : ça marche !
 
-le village a son modele, son repository, et son service ( et service implement).
-Les test sur postman ne marche pas malheureusement 
+le village a son modele, son repository, et son service (et service implement).
+Les test sur postman ne marche pas malheureusement (j'ai résolu le problème avec l'aide des collègues)
 
 #### le Show 
 
@@ -44,4 +45,4 @@ Création de l'entity Show avec la relation (la ca se complique)
 Création des autres entity avec leurs relations
 
 
----------------
+-----------------------------

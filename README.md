@@ -41,7 +41,9 @@ Les test sur postman ne marche pas malheureusement (j'ai résolu le problème av
 
 #### le Show 
 
+Pour la suite je me concentre sur le show pour la création/affichage d'un événement.
 Création de l'entity Show avec la relation (la ca se complique)
+
 
 #### Les autres
 
